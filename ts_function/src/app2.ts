@@ -6,7 +6,7 @@ interface iShop {
     title: string;
     count: number;
     price: number;
-};
+};    
 
 const array2: iShop[] = [
     { id: 1, title: 'Часы', count: 10, price: 500 },
