@@ -6,7 +6,7 @@ class TodoList {
     tasks = ['проснуться', 'поработать', 'написать код', 'помыть посуду'];
     addTask(newTask) {
         this.tasks.push(newTask);
-        return this.tasks;
+        return this.tasks.join('');
     }
     removeTask() {
         this.tasks.pop();
