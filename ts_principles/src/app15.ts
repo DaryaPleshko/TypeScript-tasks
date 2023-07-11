@@ -9,19 +9,22 @@ interface iCat15 {
     getColor(): string;
 }
 class Cat15 implements iCat15 {
-    private name: string;
-    private age: number;
-    private color: string;
+    private name: string = 'barni';
+    private age: number = 2;
+    private color: string = 'grey';
 
     getName(): string {
-        return ''
+        return this.name;
     }
     getAge(): number {
-        return 1;
+        return this.age;
     }
     getColor(): string {
-        return ''
+        return this.color;
     }
 }
 
 const cat15 = new Cat15();
+console.log(cat15.getName());
+console.log(cat15.getAge());
+console.log(cat15.getColor());
