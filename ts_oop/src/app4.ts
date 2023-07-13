@@ -9,7 +9,7 @@ class Student4 {
     getName() {
         return this.name;
     }
-    getAge() {
+    getAge() {           
         return this.age;
     }
 
