@@ -13,10 +13,12 @@ class Counter {
         return this.count;
     }
     increment() {
-        return this.count++
+        this.count++
+        return this.count;
     }
     decrement() {
-        return this.count--
+        this.count--
+        return this.count;
     }
 }
 
